@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learner Table</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      background: #f4f6f3;
+      color: #24312b;
+      font-family: Arial, sans-serif;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin-bottom: 8px;
+      color: #245b45;
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 24px;
+      color: #5e6c63;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      background: white;
+      border: 1px solid #d7dfd8;
+      border-radius: 6px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+    }
+
+    caption {
+      padding: 16px;
+      color: #245b45;
+      font-weight: bold;
+      text-align: left;
+    }
+
+    th, td {
+      padding: 13px 16px;
+      border-top: 1px solid #e2e7e2;
+    }
+
+    th {
+      background: #eaf1eb;
+      color: #245b45;
+    }
+
+    tbody tr:nth-child(even) {
+      background: #f8faf8;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Learner Table</h1>
+    <p>A simple list of learners and the subjects they are studying.</p>
+
+    <div class="table-wrap">
+      <table>
+        <caption>Class learners</caption>
+        <thead>
+          <tr>
+            <th scope="col">Student ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Class</th>
+            <th scope="col">Subject</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>001</td>
+            <td>Shweta Ubale</td>
+            <td>Beginner</td>
+            <td>English</td>
+          </tr>
+          <tr>
+            <td>002</td>
+            <td>Aparna</td>
+            <td>Beginner</td>
+            <td>Mathematics</td>
+          </tr>
+          <tr>
+            <td>003</td>
+            <td>Suhas</td>
+            <td>Intermediate</td>
+            <td>Science</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</body>
+</html>
